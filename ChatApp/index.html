@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="cosmos-chat.styles.css" rel="stylesheet" />
+	<script src="js/jquery363.min.js"></script>
+    <script src="js/site.js"></script>
+</head>
+<body>
+    
+<div class="h-100 d-flex flex-row" b-zq9v2dytfv=""><div class="flex-row justify-content-center" style="min-width:275px" b-zq9v2dytfv=""><!--!--><div class="sidebar h-100 d-flex flex-column" b-8xkjakmtme=""><!--!--><div class="flex-column top-row navbar navbar-dark" b-8xkjakmtme=""><div class="container-fluid navbar-brand" b-8xkjakmtme=""><h4 class="py-1" b-8xkjakmtme="">Cosmos Chat</h4></div></div>
+        <div class=" flex-grow-1 flex-column justify-content-center overflow-auto" b-8xkjakmtme=""><div b-8xkjakmtme=""><nav class="flex-column" b-8xkjakmtme=""><div class="nav-item px-3" b-8xkjakmtme=""><!--!--><a onclick="return createChatSession('New Chat')" style="cursor:pointer" class="nav-link"><!--!--><span class="oi oi-plus" aria-hidden="true" b-8xkjakmtme=""></span> New Chat
+                            </a></div></nav></div><!--!-->
+                <div class="vstack gap-3 px-3" id="chatsContainer" >
+				
+
+								
+								
+                </div></div></div></div><!--!-->
+
+	<div class="flex-row justify-content-center flex-grow-1" b-zq9v2dytfv=""><!--!--><!--!--><!--!--><!--!-->
+
+<div class="h-100 d-flex flex-column overflow-hidden"><div class="flex-column bg-light"><div class="p-2 d-flex flex-row" style="height:55px"><div class="flex-row justify-content-center flex-grow-1"><h4 class="text-dark py-2" id="chatTitle"></h4></div><!--!-->
+            <div style="min-width:150px"><!--!--><span class="oi oi-person me-2" aria-hidden="true"></span>
+                <input  type="text" rows="1" placeholder="<Your Name>" class="m-0 w-full border-0 bg-transparent p-0 pl-2 pr-7" style="height:24px; overflow-y: hidden; width:100px;resize: none" id="senderInput"></div></div></div><!--!-->
+	
+    <div class="flex-column justify-content-center p-4 flex-grow-1 overflow-auto" id="chatmessagesdiv"></div>
+		
+    <div class=" flex-column justify-content-center px-4" style="min-height:75px"><div style="padding:10px" class="border border-secondary rounded"><input type="text" rows="1" placeholder="<Your Message>" class="m-0 w-full border-0 bg-transparent p-0 pl-2 pr-7" style="height:24px; overflow-y: hidden; width:calc(100% - 25px);resize: none" id="messageInput"  onkeydown="postMessage(this)" ><!--!-->
+            <a  onclick="return addMessage()" style="cursor:pointer"><!--!--><span class="oi oi-share" aria-hidden="true"></span></a></div></div></div></div></div><!--!-->
+        <!--!-->
+
+
+    </body>
+</html>

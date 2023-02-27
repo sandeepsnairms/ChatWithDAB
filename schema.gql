@@ -1,0 +1,13 @@
+type Chat @model {
+  id: ID
+  ChatSessionId: String
+  Name: String
+}
+
+type Message @model {
+  id: ID
+  ChatSessionId: String
+  DateTime: DateTime
+  Sender: String
+  Text: String  
+}
