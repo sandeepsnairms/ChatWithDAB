@@ -31,7 +31,7 @@
   },
   "entities": {
 	  "Chat": {
-      "source": "ChatContainer",
+      "source": "Chats",
       "rest": false,
       "graphql": true,
       "permissions": [
@@ -42,7 +42,7 @@
       ]
     },
 	"Message": {
-      "source": "ChatMessages",
+      "source": "Messages",
       "rest": false,
       "graphql": true,
       "permissions": [
